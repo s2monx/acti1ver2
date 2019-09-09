@@ -34,6 +34,7 @@ public class Acti2 extends AppCompatActivity {
         String namnhap = getIntent().getExtras().getString("nam");
         int tuoi = 2019-Integer.parseInt(namnhap);
         txtTuoi.setText("Tuoi la: "+tuoi);
+        // mot con vit
     }
 
 }
